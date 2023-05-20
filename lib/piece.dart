@@ -14,7 +14,58 @@ List<int> position=[];
     switch(type){
       case Tetromino.L:
         position=[
-          4,14,24,25
+          -5,
+          -6,
+          -16,
+          -26
+        ];
+        break;
+        case Tetromino.J:
+        position=[
+          -5,
+          -6,
+          -15,
+          -25
+        ];
+        break;
+        case Tetromino.I:
+        position=[
+          -4,
+          -5,
+          -6,
+          -7
+        ];
+        break;
+        case Tetromino.O:
+        position=[
+          -15,
+          -16,
+          -5,
+          -6
+        ];
+        break;
+        case Tetromino.S:
+        position=[
+         -15,
+         -14,
+         -6,
+         -5 
+        ];
+        break;
+        case Tetromino.Z:
+        position=[
+          -17,
+          -16,
+          -6,
+          -5
+        ];
+        break;
+        case Tetromino.T:
+        position=[
+          -26,
+          -16,
+          -6,
+          -15
         ];
         break;
         default:
